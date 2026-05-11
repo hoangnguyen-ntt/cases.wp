@@ -1,0 +1,53 @@
+# WordPress core folders (keep themes and necessary files)
+/wp-admin/
+/wp-includes/
+
+# Ignore plugin folders and uploads
+/wp-content/plugins/
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/cache/
+
+# Ignore most themes except the starter theme (negate to include starter-theme)
+/wp-content/themes/*
+!/wp-content/themes/starter-theme/
+!/wp-content/themes/starter-theme/**
+
+# Ignore runtime and IDE files
+.env
+.env.local
+.DS_Store
+.vscode/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Composer / PHP
+vendor/
+composer.lock
+
+# Logs
+/logs/
+*.log
+
+# Build artifacts
+/dist/
+/build/
+
+# Ignore local database dumps
+*.sql
+*.sqlite
+
+# Allow proto folder explicitly (project prototype assets)
+!/proto/
+!/proto/**
+
+# Keep gitignore itself
+!.gitignore
+/.env
+/vendor/
+/node_modules/
+wp-content/uploads/
+wp-content/database/*.sqlite
+wp-content/database/*.db
+.DS_Store
