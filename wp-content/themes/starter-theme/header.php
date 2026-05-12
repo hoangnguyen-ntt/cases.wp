@@ -14,6 +14,9 @@ $is_front = is_front_page() || is_home();
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
 	<?php wp_head(); ?>
+	<!-- Start of HubSpot Embed Code -->
+	<script type="text/javascript" id="hs-script-loader" async defer src="//js-na2.hs-scripts.com/242754142.js"></script>
+	<!-- End of HubSpot Embed Code -->
 </head>
 <body <?php body_class( $is_front ? 'cases-home' : 'cases-page' ); ?>>
 <?php wp_body_open(); ?>
