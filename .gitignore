@@ -1,9 +1,9 @@
 # Ignore everything in the repository root, but explicitly allow README and the theme/proto folders
 /*
+
+# allow some file
 !/.gitignore
 !/README.md
-!/README.MD
-!/readme.md
 !/router.php
 
 # Allow prototype and starter theme directories
